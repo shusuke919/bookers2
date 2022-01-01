@@ -1,0 +1,8 @@
+
+
+<div>
+  <P>Title : <%= @book.title %></P>
+  <p>Opinion : <%= @book.opinion %></p>
+   <p>ユーザーネーム：<%= @book.user.name %></p>
+   <p>投稿日時：<%= @book.created_at.strftime('%Y/%m/%d') %></p>
+</div>
